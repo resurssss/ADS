@@ -10,7 +10,7 @@ public class Stack<T>
     public void Push(T x)   // вставляет элемент x в вершину стека S
     {
         Node? node = head;     // создаем новый узел 
-        head = new Node(x, node);     // новый узел = голова
+        head = new Node(x, node);     // новый узел = голова 
     }
 
     public T Pop()   // удаляет элемент из вершины стека S, и возвращает его в качестве результатата

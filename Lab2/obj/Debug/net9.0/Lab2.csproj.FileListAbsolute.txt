@@ -19,3 +19,4 @@ C:\D\ITMO\4 сем\алгосы\Lab2\obj\Debug\net9.0\refint\Lab2.dll
 C:\D\ITMO\4 сем\алгосы\Lab2\obj\Debug\net9.0\Lab2.pdb
 C:\D\ITMO\4 сем\алгосы\Lab2\obj\Debug\net9.0\Lab2.genruntimeconfig.cache
 C:\D\ITMO\4 сем\алгосы\Lab2\obj\Debug\net9.0\ref\Lab2.dll
+C:\D\ITMO\4 сем\алгосы\Lab2\obj\Debug\net9.0\Lab2.sourcelink.json

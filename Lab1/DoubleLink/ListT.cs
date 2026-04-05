@@ -73,6 +73,16 @@ public class ListT<T>
             return;
         }
 
+        if (p.Pos == head)
+        {
+            newNode = new Node(x);
+            newNode.Next = head;
+            if (head != null)
+                head.Previous = newNode;
+            head = newNode;
+            return;
+        }
+
         if (p.Pos == tail)
         {
             newNode = new Node(x);

@@ -36,6 +36,7 @@ public class Queue<T>
 
     public bool Empty()   // возвращает значение true, если очередь Q пустая, и значение false в противном случае
     {
-        return list.First() == list.End();
+        //return list.First() == list.End();
+        return list.First().Equals(list.End());
     }
 }

@@ -1,6 +1,6 @@
-using Lab2.Map.Linked;
-using Lab2.Queue.ATD;
-using Lab2.Stack.ATD;
+// using Lab2.Map.Linked;
+// using Lab2.Queue.Linked;
+// using Lab2.Stack.Linked;
 
 namespace Lab2
 {
@@ -20,22 +20,25 @@ namespace Lab2
                     queue.Enqueue(mass[i]);
                 
                 if (!stack.Full())
+                {
                     stack.Push(mass[i]);
+                }
             }
 
-            Console.WriteLine("Результат работы очереди:");
+            Console.WriteLine("\nРезультат работы очереди:");
             while (!queue.Empty())
             {
                 Console.Write(queue.Dequeue());
             }
-
-            Console.WriteLine("\nРезультат работы стека:");
+            Console.WriteLine("\n"); 
+            
+            Console.WriteLine("Результат работы стека:");
             while (!stack.Empty())
             {
                 Console.Write(stack.Pop());
             }
 
-            Console.WriteLine("1. Добавляем три значения с различными ключами:");
+            Console.WriteLine("\n1. Добавляем три значения с различными ключами:");
             map.Assign(ToCharArray("key1"), ToCharArray("value1"));
             map.Assign(ToCharArray("key2"), ToCharArray("value2"));
             map.Assign(ToCharArray("key3"), ToCharArray("value3"));
@@ -43,7 +46,7 @@ namespace Lab2
             Console.WriteLine("\n2. Выводим Отображение на экран:");
             map.Print();
 
-            Console.WriteLine("\n3. Задаем новое значение по существующему ключу 'key2':");
+            Console.WriteLine("\n3. Задаем новое значение по существующему ключу 'key2': new_value2");
             map.Assign(ToCharArray("key2"), ToCharArray("new_value2"));
 
             Console.WriteLine("\n4. Вновь выводим Отображение на экран:");
@@ -58,7 +61,7 @@ namespace Lab2
 
             Console.WriteLine("\n6. Запрашиваем значение по не существующему ключу 'key999':");
             char[] result2 = [];
-            if (!map.Compute(ToCharArray("key999"), ref result2))
+            if (!map.Compute(ToCharArray("key88"), ref result2))
             {
                 Console.WriteLine("false");
             }

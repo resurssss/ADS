@@ -36,6 +36,6 @@ public class Stack<T>
 
     public bool Empty()   // возвращает значение true, если стек S пустой, и значение false в противном случае.
     {
-        return list.First() == list.End();
+        return list.First().Equals(list.End());
     }
 }

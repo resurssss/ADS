@@ -4,8 +4,7 @@ namespace Lab2.Stack.Linked;
 
 public class Stack<T>
 {
-    private Node? head;  // Вершина стека            // Указатель на вершину стека
-
+    private Node? head;  // Вершина стека
 
     public void Push(T x)   // вставляет элемент x в вершину стека S
     {
@@ -15,14 +14,14 @@ public class Stack<T>
 
     public T Pop()   // удаляет элемент из вершины стека S, и возвращает его в качестве результатата
     {
-        T obj = head!.Data; // записываем текущую голову (Data)
+        T obj = head.Data; // записываем текущую голову (Data)
         head = head.Next;    // передвигаем голову на следующий узел
         return obj;
     }
 
     public T Top()    // возвращает элемент (копия) из вершины стека S
     {
-        return head!.Data;   // смотрим Data
+        return head.Data;   // смотрим Data
     }
 
     public void MakeNull()   // делает стек пустым

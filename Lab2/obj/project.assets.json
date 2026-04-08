@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
-              "projectPath": "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj"
+            "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
+              "projectPath": "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj"
             }
           }
         }

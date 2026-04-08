@@ -8,7 +8,7 @@ public class Queue<T>
 
     public void Enqueue(T x)    // вставляет элемент x в конец очереди Q
     {
-        if (Empty())
+        if (tail == null)
         {
             tail = new Node(x, null);
             tail.Next = tail;
@@ -17,7 +17,7 @@ public class Queue<T>
         
         Node newNode = new Node(x, tail!.Next); // новый узел указывает на текущую голову
         tail.Next = newNode; // старый хвост указывает на новый узел
-        tail = newNode;      // новый узел становится хвостом
+        tail = newNode;      // хвостом становится новый узел
     }
 
     public T Front()  // возвращает первый элемент (копия) очереди Q
@@ -28,7 +28,7 @@ public class Queue<T>
     public T Dequeue()   // удаляет первый элемент очереди Q, и возвращает его в качестве результата
     {
         T cur = tail!.Next!.Data;   // получаем Next tail - первый элемент очереди
-        if (tail.Next == tail)   // (один элемент очереди)
+        if (tail.Next == tail)   // один элемент очереди
             tail = null;
         else
             tail.Next = tail.Next.Next;   // next tail указывает на следующий

@@ -9,16 +9,16 @@ public class Map
     // посимвольное сравнение ключей
     private bool CompareKeys(char[] key1, char[] key2)
     {
-        if (key1.Length != key2.Length) 
-            return false;
-        // нужно ли сравнивать по терминальному элементу?
-        
+        if (key1 == null || key2 == null)   // защита от null
+            return key1 == key2;
+
         for (int i = 0; i < key1.Length; i++)
         {
-            if (key1[i] != key2[i]) 
+            if (key1[i] != key2[i])
                 return false;
+            
             if (key1[i] == '\0')
-                break;
+                return true;
         }
         return true;
     }
@@ -40,31 +40,16 @@ public class Map
 
     public void Assign(char[] d, char[] r)    // делает M(d) равным r независимо от того, как M(d) было определено ранее
     {
-        Node? foundNode = Find_Node(d);  // поиск узла по ключу d
-
-        if (foundNode != null)  // если узел найден
-            foundNode.Value = r;   // обновляем значение
-        else  // создаем новую пару
+        Node? foundNode = Find_Node(d);   // поиск узла по ключу
+        
+        if (foundNode != null)
         {
-            Node newNode = new Node(d, r, null);  // создаем пустой узел
-
-            if (head == null)   // если голова пустая
-            {
-                head = newNode;   // голова становится новым узлом со значением
-            }
-            else    
-            {
-                // ищем последний узел
-                Node? cur = head;
-                Node? prev = null;
-
-                while (cur != null)
-                {
-                    prev = cur;
-                    cur = cur.Next;
-                }
-                prev!.Next = newNode;   // присваиваем последнему узлу нужные значения
-            }
+            foundNode.Value = r;    // если нашли, обновляем ссылку
+        }
+        else
+        {
+            Node newNode = new Node(d, r, head);
+            head = newNode;
         }
     }
 
@@ -90,7 +75,7 @@ public class Map
         Node? cur = head;
         while (cur != null)
         {
-            Console.Write($",\n {cur}");
+            Console.Write($"\n {cur}");
             cur = cur.Next;
         }
         Console.WriteLine("]"); 
@@ -104,7 +89,7 @@ public class Map
 
         public override string ToString()
         {
-            return $"{new string(Key)}: {new string(Value)}";
+            return $"{new string(Key).TrimEnd('\0')}: {new string(Value).TrimEnd('\0')}";
         }
     }
 }

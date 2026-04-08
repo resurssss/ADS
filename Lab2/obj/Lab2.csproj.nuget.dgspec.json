@@ -4,14 +4,14 @@
     "C:\\D\\ITMO\\4 сем\\алгосы\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
+    "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj",
+        "projectPath": "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\Serg\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\obj\\",
+        "outputPath": "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Serg\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
-                "projectPath": "C:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj"
+              "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj": {
+                "projectPath": "c:\\D\\ITMO\\4 сем\\алгосы\\Lab1\\Lab1.csproj"
               }
             }
           }

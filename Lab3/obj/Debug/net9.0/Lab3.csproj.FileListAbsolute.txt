@@ -1,0 +1,30 @@
+c:\D\ITMO\4 сем\алгосы\Lab3\bin\Debug\net9.0\Lab3.exe
+C:\D\ITMO\4 сем\алгосы\Lab3\bin\Debug\net9.0\Lab3.deps.json
+C:\D\ITMO\4 сем\алгосы\Lab3\bin\Debug\net9.0\Lab3.runtimeconfig.json
+c:\D\ITMO\4 сем\алгосы\Lab3\bin\Debug\net9.0\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3\bin\Debug\net9.0\Lab3.pdb
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.AssemblyInfoInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.AssemblyInfo.cs
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.csproj.CoreCompileInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.sourcelink.json
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\refint\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.pdb
+C:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\Lab3.genruntimeconfig.cache
+C:\D\ITMO\4 сем\алгосы\Lab3\obj\Debug\net9.0\ref\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\bin\Debug\net9.0\Lab3.exe
+C:\D\ITMO\4 сем\алгосы\Lab3 готовая\bin\Debug\net9.0\Lab3.deps.json
+C:\D\ITMO\4 сем\алгосы\Lab3 готовая\bin\Debug\net9.0\Lab3.runtimeconfig.json
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\bin\Debug\net9.0\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\bin\Debug\net9.0\Lab3.pdb
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.AssemblyInfoInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.AssemblyInfo.cs
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.csproj.CoreCompileInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.sourcelink.json
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\refint\Lab3.dll
+c:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.pdb
+C:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\Lab3.genruntimeconfig.cache
+C:\D\ITMO\4 сем\алгосы\Lab3 готовая\obj\Debug\net9.0\ref\Lab3.dll

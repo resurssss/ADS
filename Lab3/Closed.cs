@@ -25,22 +25,22 @@ public class Dict
     // !ищет x в хеш-таблице и возвращает его индекс, если находит
     private int Contain(char[] x, int hash)
     {
-        // линейное хэширование
-        for (int i = 0; i < size; i++)
+        int cur = hash;
+        int i = 0;
+        
+        do
         {
-            int index = Linear_hash(i, hash);  // вычисляем индекс с учетом хэширования
+            if (array[cur]![0] != '\0' && array[cur] != null && Equal(array[cur]!, x))
+                return cur;
             
-            // если ячейка пустая — элемент не найден
-            if (array[index] == null)     // удалённые ячейки имеют array[index][0] == '\0', они не null
-                return -1;
+            i++;
+            cur = Linear_hash(i, hash);  // step - номер попытки, hash - начальный хеш
             
-            // если ячейка не пустая и имена совпадают — нашли
-            if (Equal(array[index]!, x))
-                return index;
-        }                                       // Элемент не найден
-        return -1;   // не нашли, возвращаем false
+        } while (cur != hash);
+        
+        return -1;
     }
-
+    
     // Проверка принадлежности элемента множеству
     public bool Member(char[] x)
     {

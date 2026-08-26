@@ -1,0 +1,30 @@
+c:\D\ITMO\4 сем\алгосы\Lab4\bin\Debug\net9.0\Lab4.exe
+C:\D\ITMO\4 сем\алгосы\Lab4\bin\Debug\net9.0\Lab4.deps.json
+C:\D\ITMO\4 сем\алгосы\Lab4\bin\Debug\net9.0\Lab4.runtimeconfig.json
+c:\D\ITMO\4 сем\алгосы\Lab4\bin\Debug\net9.0\Lab4.dll
+c:\D\ITMO\4 сем\алгосы\Lab4\bin\Debug\net9.0\Lab4.pdb
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.AssemblyInfoInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.AssemblyInfo.cs
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.csproj.CoreCompileInputs.cache
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.sourcelink.json
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.dll
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\refint\Lab4.dll
+c:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.pdb
+C:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\Lab4.genruntimeconfig.cache
+C:\D\ITMO\4 сем\алгосы\Lab4\obj\Debug\net9.0\ref\Lab4.dll
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\bin\Debug\net9.0\Lab4.exe
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\bin\Debug\net9.0\Lab4.deps.json
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\bin\Debug\net9.0\Lab4.runtimeconfig.json
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\bin\Debug\net9.0\Lab4.dll
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\bin\Debug\net9.0\Lab4.pdb
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.AssemblyInfoInputs.cache
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.AssemblyInfo.cs
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.csproj.CoreCompileInputs.cache
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.sourcelink.json
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.dll
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\refint\Lab4.dll
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.pdb
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\Lab4.genruntimeconfig.cache
+C:\D\ITMO\4\алгосы\Lab4 — др вариант\obj\Debug\net9.0\ref\Lab4.dll
